@@ -209,7 +209,7 @@ div {
         &.nav-header{
             background-color: #4e4e4fcf;
              position: fixed;
-             
+             transition: all .7s ease;
            top:36px;
            z-index: 45;
            width:350px;
@@ -224,7 +224,7 @@ div {
                     width: 100%;
                     text-align: center;
                     padding: 24;
-                    transition: all .2s ease;
+                   
                   }   
             }
           
