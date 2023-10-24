@@ -1,9 +1,10 @@
-
+import TopHeader from "./TopHeader"
+import './Header.scss'
 
 const Header = () => {
   return (
-    <header>
-      header
+    <header className="main-header">
+      <TopHeader/>
     </header>
   )
 }
