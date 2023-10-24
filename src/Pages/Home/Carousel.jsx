@@ -1,3 +1,4 @@
+
 import heroCarousel1 from '../../assets/HeroCarousel/heroCarousel1.jpg'
 import heroCarousel2 from '../../assets/HeroCarousel/heroCarousel2.jpg'
 import heroCarousel3 from '../../assets/HeroCarousel/heroCarousel3.jpg'
@@ -11,12 +12,19 @@ const Carousel = () => {
   return (
     <div className="slider-wrapper">
       <div className='slider-content'> 
-      <img src={heroCarousel1} alt={`img ${heroCarousel1}`}/>
+      <img src={heroCarousel1} alt={`img ${heroCarousel1}`} />
       <img src={heroCarousel2}  alt={`img ${heroCarousel2}`}/>
       <img src={heroCarousel3}  alt={`img ${heroCarousel3}`}/>
       <img src={heroCarousel4}  alt={`img ${heroCarousel4}`}/>
       <img src={heroCarousel5}  alt={`img ${heroCarousel5}`}/>
 
+      </div>
+      <div className='desc-hero'>
+<h2 className='main-title'> Welcome to Excava
+  </h2>
+  <div></div>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+</p>
       </div>
     </div>
   );
