@@ -4,6 +4,9 @@ import { Social } from "../../data/Social";
 const TopHeader = () => {
   return (
     <div className="top-header">
+      <div className="list">
+      <i className="bi bi-list"></i>
+      </div>
       <div className="top-header-place">
         <i className="bi bi-geo-alt-fill"></i>
         1095 Howard Street, San Francisco, USA
