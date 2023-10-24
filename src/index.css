@@ -13,3 +13,6 @@ a{
 input:focus{
     outline: none;
 }
+ul{
+    list-style-type: none;
+}

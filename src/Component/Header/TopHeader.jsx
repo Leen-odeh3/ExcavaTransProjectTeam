@@ -1,9 +1,13 @@
 import "./Header.scss";
 import { Social } from "../../data/Social";
 
-const TopHeader = () => {
+// eslint-disable-next-line react/prop-types
+const TopHeader = ({setopen}) => {
   return (
     <div className="top-header">
+      <div className="list" onClick={()=>setopen(prev=>!prev)}>
+      <i className="bi bi-list"></i>
+      </div>
       <div className="top-header-place">
         <i className="bi bi-geo-alt-fill"></i>
         1095 Howard Street, San Francisco, USA
