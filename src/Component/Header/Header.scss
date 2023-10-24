@@ -7,9 +7,7 @@
 .main-header {
     width: 100%;
     height: 220px;
-
 }
-
 // top-header-styles
 div {
 
@@ -23,9 +21,7 @@ div {
         div {
             &.list {
                 display: none;
-            }
-        }
-
+            }}
         div {
             &.top-header-links {
                 width: 40%;
@@ -38,11 +34,7 @@ div {
 
                     &:hover {
                         color: #ffbe00;
-                    }
-                }
-            }
-        }
-    }
+                    }}}}}
 
     i {
 
@@ -50,9 +42,7 @@ div {
         &.bi-telephone-fill,
         &.bi-envelope-fill {
             margin-right: 6px;
-        }
-    }
-}
+        }}}
 
 // add middleHeader styles
 div {
@@ -69,9 +59,7 @@ div {
                     color: rgb(77, 77, 77);
                     font-size: 35px;
                     letter-spacing: 3px;
-                }
-
-            }
+                }}
 
             &.search-main {
                 width: 700px;
@@ -89,7 +77,6 @@ div {
                     padding-left: 20px;
                     border: none;
                 }
-
                 i.bi-search {
                     position: absolute;
                     top: 7px;
@@ -97,9 +84,7 @@ div {
                     font-size: 30px;
                     color: gray;
                     cursor: pointer;
-                }
-            }
-
+                }}
             &.icons-middle {
                 text-align: center;
 
@@ -109,26 +94,17 @@ div {
 
                     &.bi-cart2 {
                         margin-right: 20px;
-                    }
-                }
-
+                    }}
                 width:100px;
-
-            }
-        }
-    }
-}
-
+                }}}}
 // navbar styles
 div {
     .nav-header {
         height: calc(220px - 67%);
-
         ul {
             @include display();
             justify-content: center;
             height: 100%;
-
             li {
                 padding: 22px;
                 color: #525452;
@@ -138,15 +114,7 @@ div {
 
                 &:hover {
                     background-color: #f3f2f2;
-                }
-
-            }
-        }
-    }
-}
-
-
-
+                }}}}}
 
 // Media
 @media (max-width: 832px) {
@@ -191,87 +159,65 @@ div {
 
         &.bi-cart2 {
             margin: 0px 10px;
-        }
+        }}
     }
     //------
-    
-    div{
-        &.list{
+
+    div {
+        &.list {
             display: flex !important;
 
-            i{
-                &.bi-list{
+            i {
+                &.bi-list {
                     font-size: 30px;
                     cursor: pointer;
-                }
-            }
-        }
-        &.nav-header{
+                }}}
+        &.nav-header {
             background-color: #4e4e4fcf;
-             position: fixed;
-             transition: all .7s ease;
-           top:36px;
-           z-index: 45;
-           width:350px;
+            position: fixed;
+            transition: all .7s ease;
+            top: 36px;
+            z-index: 45;
+            width: 350px;
             height: 100vh;
-            left:-350px;
-            ul{
-                  flex-direction: column;
-                  li{
+            left: -350px;
+
+            ul {
+                flex-direction: column;
+
+                li {
                     font-size: 25px;
                     font-weight: bold;
-                    color:#ffbe00;
+                    color: #ffbe00;
                     width: 100%;
                     text-align: center;
                     padding: 24;
-                   
-                  }   
-            }
-          
-        
-           
-           
-        }
-    }
-    
 
-}
-
+                }}}}
 @media (min-width:833px) and (max-width:1194px) {
-
     .top-header-place {
         display: none;
     }
-
     div.top-header div.top-header-links {
         display: flex;
         width: 250px;
         padding-left: 20px;
     }
-
     a {
         color: white;
         margin: 0px 10px;
         font-size: 30px;
     }
-
     div.middle-header {
         height: 40%;
         padding: 0px 20px;
     }
-
     div.middle-header div.search-main {
         width: 470px;
     }
-
     div.icons-middle i {
         font-size: 20px;
-
         &.bi-cart2 {
             margin: 0px 10px;
-        }
-    }
-
-
-
-}
+        }}}
+ 
