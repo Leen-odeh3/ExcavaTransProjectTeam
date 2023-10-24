@@ -3,6 +3,7 @@ import './Header.scss'
 const Navbar = () => {
   const nav = ['Home', 'Mechanisms', 'About Us', 'Workshops', 'Contact Us'];
   
+  
   return (
     <div className="nav-header">
       <ul>

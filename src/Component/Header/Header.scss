@@ -202,10 +202,39 @@ div {
             i{
                 &.bi-list{
                     font-size: 30px;
+                    cursor: pointer;
                 }
             }
         }
+        &.nav-header{
+            background-color: #4e4e4fcf;
+             position: fixed;
+             
+           top:36px;
+           z-index: 45;
+           width:350px;
+            height: 100vh;
+            left:-350px;
+            ul{
+                  flex-direction: column;
+                  li{
+                    font-size: 25px;
+                    font-weight: bold;
+                    color:#ffbe00;
+                    width: 100%;
+                    text-align: center;
+                    padding: 24;
+                    transition: all .2s ease;
+                  }   
+            }
+          
+        
+           
+           
+        }
     }
+    
+
 }
 
 @media (min-width:833px) and (max-width:1194px) {
