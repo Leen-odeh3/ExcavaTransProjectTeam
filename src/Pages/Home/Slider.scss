@@ -1,7 +1,8 @@
 div {
     &.slider-wrapper {
         width: 100vw;
-        height: calc(100vh - 220px);
+        // height: calc(100vh - 220px);
+        height: 600px;
         position: relative;
         overflow: hidden;
         display: flex;
@@ -49,7 +50,7 @@ div {
     &.desc-hero {
         position: absolute;
         z-index: 999;
-        top: 40%;
+        top: 35%;
         left: 30%;
         right: 30%;
         text-align: center;
@@ -67,5 +68,11 @@ div {
             width: 130px;
             margin: 20px auto;
         }
+    }
+}
+
+@media (max-width:1000px){
+    div.slider-wrapper {
+        display: none; 
     }
 }
