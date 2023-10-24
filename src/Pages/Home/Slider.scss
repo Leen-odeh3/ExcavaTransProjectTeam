@@ -1,0 +1,16 @@
+div {
+    &.slider-wrapper {
+        width: 100vw;
+        height: calc(100vh - 220px);
+        position: relative;
+
+        img {
+            &.img {
+                object-fit: contain;
+                height: 100%;
+                width: 100%;
+            }
+
+        }
+    }
+}
