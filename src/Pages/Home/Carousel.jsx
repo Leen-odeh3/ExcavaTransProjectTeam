@@ -1,23 +1,32 @@
-import heroCarousel1 from "../../assets/HeroCarousel/heroCarousel1.jpg";
-import heroCarousel2 from "../../assets/HeroCarousel/heroCarousel2.jpg";
-import heroCarousel3 from "../../assets/HeroCarousel/heroCarousel3.jpg";
-import heroCarousel4 from "../../assets/HeroCarousel/heroCarousel4.jpg";
-import heroCarousel5 from "../../assets/HeroCarousel/heroCarousel5.jpg";
-
+import { useState } from "react";
+import { assets } from "../../data/Carousal";
 import "./Slider.scss";
 
 const Carousel = () => {
+  const [index, setIndex] = useState(0);
+
+  const handlePrevClick = () => {
+    setIndex(index > 0 ? index - 1 : assets.length - 1);
+  };
+
+  const handleNextClick = () => {
+    setIndex(index < assets.length - 1 ? index + 1 : 0);
+  };
+
   return (
     <div className="slider-wrapper">
-      <i className="bi bi-arrow-left-circle"></i>
-      <div className="slider-content">
-        <img src={heroCarousel1} alt={`img ${heroCarousel1}`} />
-        <img src={heroCarousel2} alt={`img ${heroCarousel2}`} />
-        <img src={heroCarousel3} alt={`img ${heroCarousel3}`} />
-        <img src={heroCarousel4} alt={`img ${heroCarousel4}`} />
-        <img src={heroCarousel5} alt={`img ${heroCarousel5}`} />
+      <i className="bi bi-arrow-left-circle" onClick={handlePrevClick}></i>
+      <div
+        className="slider-content"
+        style={{ transform: `translateX(${index * -100}vw)`}}
+      >
+        {assets.map((e, idx) => (
+          <div key={idx} className="main"> 
+          <img src={e.url} alt={`img ${idx}`} />
+          </div> 
+        ))}
       </div>
-      <i className="bi bi-arrow-right-circle"></i>
+      <i className="bi bi-arrow-right-circle" onClick={handleNextClick}></i>
       <div className="desc-hero">
         <h2 className="main-title"> Welcome to Excava</h2>
         <div></div>
