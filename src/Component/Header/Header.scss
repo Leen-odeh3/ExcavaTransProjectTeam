@@ -101,20 +101,19 @@ div{
    .nav-header{
     height: calc(220px - 67%);
     ul{
-        background-color: chartreuse;
        @include display();
-       text-align: center;
        justify-content: center;
         height: 100%;
        li{
-        padding: 0 20px;
+        padding:  22px;
        color:#525452;
        font-size: 18px;
        cursor: pointer;
-       height: 100%;
+       vertical-align: middle;
        &:hover{
-        background-color: rgb(233, 232, 232);
+        background-color: #f3f2f2;
        }
+
        }
     }
 } 
@@ -199,4 +198,7 @@ div.icons-middle i{
                 margin: 0px 10px;
         }}
 
+
+
+        
 }

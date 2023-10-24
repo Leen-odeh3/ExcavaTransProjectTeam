@@ -7,7 +7,7 @@ const Navbar = () => {
     <div className="nav-header">
       <ul>
         {nav.map((e, index) => (
-          <li key={index} className={`nav-${index}`}>{e}</li>
+          <li key={index} className={`nav-${index} nav`}>{e}</li>
         ))}
       </ul>
     </div>
