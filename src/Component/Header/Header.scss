@@ -130,6 +130,9 @@ div {
             height: 100%;
 
             li {
+                a{
+
+               
                 padding: 22px;
                 color: #525452;
                 font-size: 18px;
@@ -138,7 +141,7 @@ div {
 
                 &:hover {
                     background-color: #f3f2f2;
-                }
+                } }
 
             }
         }
@@ -217,14 +220,20 @@ div {
             left:-350px;
             ul{
                   flex-direction: column;
+                  height: 500px;
                   li{
+                    a{
                     font-size: 25px;
                     font-weight: bold;
                     color:#ffbe00;
                     width: 100%;
                     text-align: center;
-                    padding: 24;
-                   
+                    padding: 24 ;
+                    
+                    &:hover {
+                        background-color: transparent;
+                    } 
+                     }
                   }   
             }
           
