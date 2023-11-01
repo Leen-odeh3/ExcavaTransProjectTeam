@@ -153,7 +153,15 @@ div {
 
 // Media
 @media (max-width: 832px) {
-
+    .main-header{
+        height:120px
+    }
+    div.top-header{
+height: 30%;
+    }
+    div.middle-header{
+        height: 70%;
+    }
     .top-header-place,
     .top-header-phone,
     .top-header-email {
@@ -175,7 +183,6 @@ div {
     }
 
     div.middle-header {
-        height: 40%;
         padding: 0px 15px;
     }
 
