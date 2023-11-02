@@ -2,7 +2,7 @@ div {
     &.footer {
         background-color: black;
         width: 100%;
-        height: 700px;
+        min-height: 700px;
         color: white;
         div {
             margin: auto;
@@ -92,13 +92,25 @@ div{
                     }
                     div.footer div form{
                         width:100%;
-                        padding: 30px;
+                        padding: 15px;
                         div{
                             input{
                                 width:60%;
                             }
                             button{
                                 width:40%;
+                            }
+                        }
+                    }
+                    div.footer div.footer-section-links{
+                        display: inline-block;
+                        padding-top: 14px;
+                        height: 870px;
+                        div{
+                            a{
+                                margin-top: 10px;
+                                margin-bottom: 10px;
+                                font-size: 17px;
                             }
                         }
                     }
@@ -120,6 +132,18 @@ div{
                             }
                             button{
                                 width:25%;
+                            }
+                        }
+                    }
+                    div.footer div.footer-section-links{
+                        display: inline-block;
+                        padding-top: 14px;
+                        height: 870px;
+                        div{
+                            a{
+                                margin-top: 10px;
+                                margin-bottom: 10px;
+                                font-size: 17px;
                             }
                         }
                     }
