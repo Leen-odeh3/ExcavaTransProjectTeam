@@ -59,6 +59,9 @@ const Footer = () => {
           ))}
         </div>
       </div>
+      <div className="footer-contact" style={{padding:"20px"}}>
+<p style={{height:"10%",color:"gray",textAlign:"center",paddingTop:"20px",fontSize:"17px"}}>© Excava- Construction Equipment Joomla Template 2023. Design by PTUKTeam</p>
+      </div>
     </div>
   );
 };

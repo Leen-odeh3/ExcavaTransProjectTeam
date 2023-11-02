@@ -4,9 +4,13 @@ div {
         width: 100%;
         min-height: 700px;
         color: white;
+        margin-top: 50px;
+
         div {
             margin: auto;
-            &.footer-section-one , &.footer-section-links{
+
+            &.footer-section-one,
+            &.footer-section-links {
                 width: 90%;
                 padding: 50px 30px;
                 height: 30%;
@@ -24,7 +28,11 @@ div {
 
                             &.sub {
                                 font-size: 35px;
-                            }}}}}
+                            }
+                        }
+                    }
+                }
+            }
 
             form {
                 width: 50%;
@@ -49,102 +57,119 @@ div {
                         cursor: pointer;
                         border: none;
                     }}}}
-                div.footer-section-links{
-height: 60%;
+      
+        div.footer-section-links {
+            height: 60%;
+            margin: auto;
+
+            a {
+                color: white;
+                display: flex;
+                flex-direction: column;
+                margin-top: 35px;
+                color: gray;
+
+                &:hover {
+                    text-decoration: underline;
+                    color: #de9a4f;
+                }
+            }
+
+            div {
+                h3 {
+                    font-weight: 500;
+                    font-size: 25px;
+                }
+
+                span {
+                    height: 2px;
+                    width: 60px;
+                    margin-top: 10px;
+                    background-color: #de9a4f;
+                    display: block;
+                }}}}
 
 
-a{color:white;
-    display: flex;
-    flex-direction: column;
-    margin-top: 35px;
-    color: gray;
-    &:hover{
-        text-decoration: underline;
-        color:#de9a4f;
+@media(max-width:830px) {
+    div.footer div.footer-section-one {
+        flex-direction: column;
+        height: 330px;
+        width: 95%;
+        padding: 40px 10px 20px;
+
+    }
+
+    div.footer div.footer-section-one div.footer-info {
+        width: 90%;
+    }
+
+    div.footer div form {
+        width: 100%;
+        padding: 15px;
+
+        div {
+            input {
+                width: 60%;
+            }
+
+            button {
+                width: 40%;
+            }}}
+
+    div.footer div.footer-section-links {
+        display: inline-block;
+        width: 90%;
+        padding-top: 14px;
+        margin-left: 25px;
+        height: 870px;
+
+        div {
+            a {
+                margin-top: 10px;
+                margin-bottom: 10px;
+                font-size: 17px;
+            }
+        }
     }
 }
-div{
-    h3{
-        font-weight: 500;
-        font-size: 25px;
+
+@media(min-width:833px)and (max-width:1194px) {
+    div.footer div.footer-section-one {
+        height: 300px;
+        flex-direction: column;
     }
-    span{
-        height: 2px;
-        width:60px;
-        margin-top: 10px;
-        background-color: #de9a4f;
-        display: block;
+
+    div.footer div.footer-section-one div.footer-info {
+        width: 90%;
     }
-}
-                }
-                }}
- 
-                    @media(max-width:830px) {
-                        div.footer div.footer-section-one {  
-                        flex-direction: column;
-                        height: 330px;
-                        width:95%;
-                        padding: 40px 10px 20px ;
-                       
-                    }
-                    div.footer div.footer-section-one div.footer-info{
-                        width: 90%;
-                    }
-                    div.footer div form{
-                        width:100%;
-                        padding: 15px;
-                        div{
-                            input{
-                                width:60%;
-                            }
-                            button{
-                                width:40%;
-                            }
-                        }
-                    }
-                    div.footer div.footer-section-links{
-                        display: inline-block;
-                        padding-top: 14px;
-                        height: 870px;
-                        div{
-                            a{
-                                margin-top: 10px;
-                                margin-bottom: 10px;
-                                font-size: 17px;
-                            }
-                        }
-                    }
-                }
-                @media(min-width:833px)and (max-width:1194px) {
-                    div.footer div.footer-section-one {  
-                        height: 300px;
-                        flex-direction: column;
-                    }
-                    div.footer div.footer-section-one div.footer-info{
-                        width: 90%;
-                    }
-                    div.footer div form{
-                        width:100%;
-                        padding: 30px;
-                        div{
-                            input{
-                                width:75%;
-                            }
-                            button{
-                                width:25%;
-                            }
-                        }
-                    }
-                    div.footer div.footer-section-links{
-                        display: inline-block;
-                        padding-top: 14px;
-                        height: 870px;
-                        div{
-                            a{
-                                margin-top: 10px;
-                                margin-bottom: 10px;
-                                font-size: 17px;
-                            }
-                        }
-                    }
-                }
+
+    div.footer div form {
+        width: 100%;
+        padding: 30px;
+
+        div {
+            input {
+                width: 75%;
+            }
+
+            button {
+                width: 25%;
+            }
+        }
+    }
+
+    div.footer div.footer-section-links {
+        display: inline-block;
+        padding-top: 14px;
+        width: 90%;
+        margin-left: 25px;
+        height: 870px;
+
+        div {
+            a {
+                margin-top: 10px;
+                margin-bottom: 10px;
+                font-size: 17px;
+            }}}}}
+        
+    
