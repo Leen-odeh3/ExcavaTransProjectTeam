@@ -1,4 +1,9 @@
+import { useNavigate } from "react-router-dom";
+
 const Requirements = () => {
+
+    const navigate =useNavigate();
+
   return (
     <div
       className="mainSection"
@@ -34,6 +39,7 @@ const Requirements = () => {
           fontFamily:"cursive",
           marginBottom:"30px",
         }}
+        onClick={()=>navigate("/contact")}
       >
         CONTACT US
       </button>
