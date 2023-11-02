@@ -1,3 +1,4 @@
+import Requirements from "../../Component/Requirements"
 import Mainsection from "../../Component/WhyChooseUs/Mainsection"
 import Carousel from "./Carousel"
 
@@ -7,6 +8,7 @@ const Home = () => {
     <div>
       <Carousel/>
       <Mainsection/>
+      <Requirements/>
     </div>
   )
 }
