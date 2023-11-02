@@ -54,7 +54,7 @@ div {
                         div.footer div.footer-section-one {  
                         flex-direction: column;
                         height: 330px;
-                        width:100%;
+                        width:95%;
                         padding: 40px 10px 20px ;
                        
                     }
@@ -70,6 +70,27 @@ div {
                             }
                             button{
                                 width:40%;
+                            }
+                        }
+                    }
+                }
+                @media(min-width:833px)and (max-width:1194px) {
+                    div.footer div.footer-section-one {  
+                        height: 300px;
+                        flex-direction: column;
+                    }
+                    div.footer div.footer-section-one div.footer-info{
+                        width: 90%;
+                    }
+                    div.footer div form{
+                        width:100%;
+                        padding: 30px;
+                        div{
+                            input{
+                                width:75%;
+                            }
+                            button{
+                                width:25%;
                             }
                         }
                     }
