@@ -9,7 +9,7 @@ const Requirements = () => {
     <div
       className="mainSection"
       style={{
-        height: "450px",
+        height: "600px",
         padding: "100px",
         textAlign: "center",
         width: "100%",
