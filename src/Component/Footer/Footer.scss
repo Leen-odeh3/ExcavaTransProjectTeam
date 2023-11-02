@@ -6,10 +6,10 @@ div {
         color: white;
         div {
             margin: auto;
-            &.footer-section-one {
+            &.footer-section-one , &.footer-section-links{
                 width: 90%;
                 padding: 50px 30px;
-                height: 33%;
+                height: 30%;
                 border-bottom: .1px solid #de9a4f;
                 display: flex;
                 align-items: center;
@@ -48,7 +48,36 @@ div {
                         font-family: 'Poppins', sans-serif;
                         cursor: pointer;
                         border: none;
-                    }}}}}}
+                    }}}}
+                div.footer-section-links{
+height: 60%;
+
+
+a{color:white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+    color: gray;
+    &:hover{
+        text-decoration: underline;
+        color:#de9a4f;
+    }
+}
+div{
+    h3{
+        font-weight: 500;
+        font-size: 25px;
+    }
+    span{
+        height: 2px;
+        width:60px;
+        margin-top: 10px;
+        background-color: #de9a4f;
+        display: block;
+    }
+}
+                }
+                }}
  
                     @media(max-width:830px) {
                         div.footer div.footer-section-one {  
