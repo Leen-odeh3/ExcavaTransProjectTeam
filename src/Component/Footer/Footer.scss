@@ -1,0 +1,52 @@
+div{
+    &.footer{
+        background-color: black;
+        width:100%;
+        height: 700px;
+        color:white;
+        div{
+            margin: auto;
+            
+            &.footer-section-one{
+               
+                width:90%;
+                padding:50px 30px;
+                height: 33%;
+              border-bottom: .1px solid #de9a4f;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                div{
+                    &.footer-info{
+                        width:50%;
+                        
+                      p{
+                        font-size: 17px;
+                        &.sub{
+                            font-size: 35px;
+                        }}}}}
+                        form{
+                            width:50%;
+                            padding: 40px;
+                            position: relative;
+                            div{
+                                input{
+                                   font-size: 20px;
+                                   padding: 15px;
+                                   width:70%;
+                                }
+                                button{
+                                    width:30%;
+                                    text-transform: uppercase;
+                                    padding: 16px;
+                                    font-size: 20px;
+                                    color:white;
+                                    background-color: #de9a4f;
+                                    font-family: 'Poppins', sans-serif;
+                                    cursor: pointer;
+                                    border: none;
+                                }
+                            }
+                        }
+                    }}}
+   
