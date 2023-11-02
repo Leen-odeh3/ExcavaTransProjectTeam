@@ -11,7 +11,7 @@ const Navbar = ({open}) => {
     <div className="nav-header" style={{left: open && "0"}}>
       <ul>
         {nav.map((e, index) => (
-          <li key={index} className={`nav-${index} nav`}><NavLink to={`/${e}`}> {e}</NavLink></li>
+          <li key={index} className={`nav-${index} nav`}><NavLink to={`/${e.toLowerCase()}`}> {e}</NavLink></li>
         ))}
       </ul>
     </div>
