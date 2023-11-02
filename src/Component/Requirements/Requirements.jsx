@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import './Requirements.scss'
 
 const Requirements = () => {
 
@@ -11,7 +12,7 @@ const Requirements = () => {
         height: "450px",
         padding: "100px",
         textAlign: "center",
-        width: "70%",
+        width: "100%",
         margin: "auto",
       }}
     >

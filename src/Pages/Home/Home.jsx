@@ -1,4 +1,4 @@
-import Requirements from "../../Component/Requirements"
+import Requirements from "../../Component/Requirements/Requirements"
 import Mainsection from "../../Component/WhyChooseUs/Mainsection"
 import Carousel from "./Carousel"
 
@@ -8,7 +8,7 @@ const Home = () => {
     <div>
       <Carousel/>
       <Mainsection/>
-      <Requirements/>
+     <Requirements/>
     </div>
   )
 }

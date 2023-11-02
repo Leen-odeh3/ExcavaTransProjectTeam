@@ -1,0 +1,23 @@
+@media(max-width:830px) {
+    div.mainSection {
+
+        padding: 30px 10px !important;
+        height: 600px !important;
+
+        p {
+            margin-bottom: 30px !important;
+        }
+    }
+}
+
+@media(min-width:833px)and (max-width:1194px) {
+
+    div.mainSection {
+        height: 500px !important;
+        padding: 30px 40px !important;
+
+        p {
+            margin-bottom: 40px !important;
+        }
+    }
+}
